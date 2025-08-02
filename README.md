@@ -1,24 +1,51 @@
-🔨 Funcionalidades do projeto
- Funcionalidades do projeto
-Neste projeto, dei os primeiros passos no universo da IA Generativa utilizando a API do Gemini. Para isso, implementei dois projetos: (i) um categorizador de produtos para um e-commerce e (ii) uma análise de sentimento de comentários em e-commerce.
+💡 Projeto com IA Generativa usando Gemini API
+🔨 Funcionalidades do Projeto
+Neste projeto, dei os primeiros passos no universo da IA Generativa utilizando a API do Gemini. Desenvolvi duas aplicações principais:
 
-✔️ Técnicas e tecnologias utilizadas
-As técnicas e tecnologias utilizadas pra isso são:
+Categorizador de produtos para um e-commerce, capaz de classificar automaticamente os itens com base em suas descrições.
 
+Analisador de sentimentos de comentários de clientes, permitindo entender se as avaliações são positivas, negativas ou neutras.
+
+✔️ Técnicas e Tecnologias Utilizadas
 Programação em Python
-Uso de API Gemini
-Leitura de arquivos CSV e manipulação de dados
-🛠️ Abrir e rodar o projeto
-Após baixar o projeto, você pode abrir com Visual Studio Code. Em seguida, é necessário que você prepare seu ambiente. Para isso:
 
-venv no Windows:
+Consumo da API Gemini (Google)
+
+Leitura e manipulação de dados com arquivos CSV
+
+Criação de ambiente virtual com venv
+
+Utilização de variáveis de ambiente com .env
+
+🛠️ Como abrir e rodar o projeto
+Clone o repositório e abra no Visual Studio Code.
+
+Crie um ambiente virtual:
+
+Para Windows:
+bash
+Copiar
+Editar
 python -m venv venv-gemini-1
-source venv-gemini-1/Scripts/activate
-venv no Mac/Linux:
+venv-gemini-1\Scripts\activate
+Para Mac/Linux:
+bash
+Copiar
+Editar
 python3 -m venv venv-gemini-1
 source venv-gemini-1/bin/activate
-Em seguida, instale os pacotes utilizando:
+Instale as dependências:
 
+bash
+Copiar
+Editar
 pip install -r requirements.txt
-🔑 Gerar API_KEY e associar ao .env
-GEMINI_API_KEY = "SUA_CHAVE_AQUI"
+🔑 Configurar a chave da API Gemini
+Gere sua chave de API no Google AI Studio.
+
+Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
+
+ini
+Copiar
+Editar
+GEMINI_API_KEY=SUA_CHAVE_AQUI
