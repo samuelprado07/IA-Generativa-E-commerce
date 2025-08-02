@@ -3,17 +3,24 @@ ________________________________________
 🔨 Funcionalidades do Projeto
 Neste projeto, dei os primeiros passos no universo da IA Generativa utilizando a API do Gemini, explorando seu potencial para interpretação de linguagem natural.
 Desenvolvi duas aplicações principais:
+
 •	🛍️ Categorizador de Produtos
 Classifica automaticamente os itens de um e-commerce com base em suas descrições.
+
 •	💬 Analisador de Sentimentos
 Analisa comentários de clientes, identificando se as avaliações são positivas, negativas ou neutras.
 ________________________________________
 ✔️ Técnicas e Tecnologias Utilizadas
 •	🐍 Programação em Python
+
 •	🌐 Consumo da API Gemini (Google)
+
 •	📊 Leitura e manipulação de dados com arquivos CSV
+
 •	🛠️ Criação de ambiente virtual com venv
+
 •	🔐 Utilização de variáveis de ambiente com .env
+
 ________________________________________
 🛠️ Como abrir e rodar o projeto
 1.	Clone o repositório e abra no Visual Studio Code.
