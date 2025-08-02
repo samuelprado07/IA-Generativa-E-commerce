@@ -4,7 +4,7 @@ Neste projeto, dei os primeiros passos no universo da IA Generativa utilizando a
 
 Categorizador de produtos para um e-commerce, capaz de classificar automaticamente os itens com base em suas descrições.
 
-Analisador de sentimentos de comentários de clientes, permitindo entender se as avaliações são positivas, negativas ou neutras.
+Analisador de sentimentos de comentários de clientes, permitindo identificar se as avaliações são positivas, negativas ou neutras.
 
 ✔️ Técnicas e Tecnologias Utilizadas
 Programação em Python
@@ -45,7 +45,7 @@ Gere sua chave de API no Google AI Studio.
 
 Crie um arquivo .env na raiz do projeto com o seguinte conteúdo:
 
-ini
+env
 Copiar
 Editar
 GEMINI_API_KEY=SUA_CHAVE_AQUI
